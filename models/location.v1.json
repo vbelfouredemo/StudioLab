@@ -22,7 +22,8 @@
       "description": "decimal degrees"
     },
     "geoTracking": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "real time tracking enabled?\n"
     }
   },
   "required": [
