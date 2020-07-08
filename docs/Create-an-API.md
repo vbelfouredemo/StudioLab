@@ -3,13 +3,28 @@
 You will notice that your APIs tab is pretty empty besides a few model files we provided to you. Let's change that!
 
 <!-- theme: warning -->
+
 > ### Use the Starter Branch!
->*Make sure that you are using the right branch to complete the exercises.*
+>
+> _Make sure that you are using the right branch to complete the exercises._
+
+### Add an OAS file
 
 Start by adding a new API by clicking on the blue plus `(+)` icon on the top left of the UI.
 
 Create an API called 'devices', using `OpenAPI v3` and `YAML` format.
 
 ![newAPI](../assets/images/newAPI.png)
+
+### API Overview
+
+Once you add the devices API file, you will be presented with an empty overview page. Use the form editor to do the following:
+
+- [ ] Write a neat **Description** (right below the **Title**).
+- [ ] Add an API token in **Security Schemes** to secure your operations.
+- [ ] Add **Contact** information so your docs consumers know who to talk to.
+- [ ] Include licensing information so users know how you **License** your API.
+
+![overview](../assets/images/overview.png)
 
 
