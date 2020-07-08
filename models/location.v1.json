@@ -11,13 +11,15 @@
       "type": "number",
       "format": "float",
       "minimum": 4,
-      "maximum": 7
+      "maximum": 7,
+      "description": "decimal degrees"
     },
     "long": {
       "type": "number",
       "format": "float",
       "minimum": 4,
-      "maximum": 7
+      "maximum": 7,
+      "description": "decimal degrees"
     },
     "geoTracking": {
       "type": "boolean"
