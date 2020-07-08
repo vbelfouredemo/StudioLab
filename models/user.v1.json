@@ -11,10 +11,15 @@
     },
     "userName": {
       "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
     }
   },
   "required": [
     "userID",
-    "userName"
+    "userName",
+    "email"
   ]
 }
