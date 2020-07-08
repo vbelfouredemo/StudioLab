@@ -8,5 +8,7 @@ This lab provides a `starter` branch which you will use to complete the exercise
 
 To learn more about how branches work, checkout the next section called '**Training Environment**'.
 
-### Training Environment
+### Getting Started
+
+Begin the lab by becoming familiar with the training environment and the Stoplight Studio UI. Then proceed to complete each subsequent step until you have produced a final project.
 
