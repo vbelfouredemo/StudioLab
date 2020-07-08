@@ -1,11 +1,13 @@
 # Models
 
-> 
->## 1. Add JSON Models
-> 
-> Create stand alone `json` files for the following user, account and location models. The example gif demonstrates how to add a new model file.
+## 1. Add JSON Models
+Create stand alone `JSON` files for the following user, account and location models. This example gif demonstrates how to add a new model file.
 
 ![add model](../assets/images/addModel.gif)
+
+<!-- theme: danger -->
+> ### Use the `Common` scope & `JSON` format
+>That way your models will be created as independent JSON files rather than written inline in the OAS file.
 
 ### User
 **Description**: *Users associated with a CloudHome account. Administrative priviledges are indicated to show which users can configure device management and which users can only interact with configured devices.*
@@ -22,14 +24,5 @@
 
 ![location model](../assets/images/location.png)
 
-```md
-<!-- theme: danger -->
-
-> ### Danger Will Robinson!
->
-> Here is my danger callout!
-
-> 
->## 1. Add JSON Models
-> 
-> Create stand alone `json` files for the following user, account and location models. The example gif demonstrates how to add a new model file.
+## 1. Add JSON Models
+Create stand alone `JSON` files for the following user, account and location models. This example gif demonstrates how to add a new model file.
