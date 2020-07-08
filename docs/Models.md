@@ -7,7 +7,7 @@ Create stand alone `JSON` files for the following user, account and location mod
 
 <!-- theme: danger -->
 > ### Use the `Common` scope & `JSON` format
->That way your models will be created as independent JSON files rather than written inline in the OAS file.
+>*That way your models will be created as independent JSON files rather than written inline in the OAS file.*
 
 ### User
 **Description**: *Users associated with a CloudHome account. Administrative priviledges are indicated to show which users can configure device management and which users can only interact with configured devices.*
@@ -23,6 +23,15 @@ Create stand alone `JSON` files for the following user, account and location mod
 **Description**: *Device geolocation at most recent update. Users can optionally choose to turn off geolocation, however key features such as mapping will not be available.*
 
 ![location model](../assets/images/location.png)
+
+
+<!-- theme: info -->
+
+> ### A thing to know...
+>
+> *If you wish to add descriptions or additional validation to your fields you can do so as demonstrated in the following example.*
+
+![model properties](../assets/images/modelProps.gif)
 
 ## 1. Add JSON Models
 Create stand alone `JSON` files for the following user, account and location models. This example gif demonstrates how to add a new model file.
