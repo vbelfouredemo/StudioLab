@@ -61,12 +61,3 @@ components:
       name: limit
       allowEmptyValue: true
       description: specify the number of results returned from the request
-tags:
-  - name: devices
-    description: relative to device management
-    externalDocs:
-      url: 'https://cloudhome.io/api/tags/devices'
-  - name: IOT
-    description: relative to devices and the 'internet of things'
-    externalDocs:
-      url: 'https://cloudhome.io/api/tags/IOT'
