@@ -11,3 +11,5 @@ Start by adding a new API by clicking on the blue plus `(+)` icon on the top lef
 Create an API called 'devices', using `OpenAPI v3` and `YAML` format.
 
 ![newAPI](../assets/images/newAPI.png)
+
+
