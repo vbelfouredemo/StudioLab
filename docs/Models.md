@@ -5,9 +5,9 @@ Create stand alone `JSON` files for the following user, account and location mod
 
 ![add model](../assets/images/addModel.gif)
 
-<!-- theme: danger -->
+<!-- theme: warning -->
 > ### Use the `Common` scope & `JSON` format
->*That way your models will be created as independent JSON files rather than written inline in the OAS file.*
+>*That way your models will be created as independent *`JSON`* files rather than written inline in the *`OAS`* file.*
 
 ### User
 **Description**: *Users associated with a CloudHome account. Administrative priviledges are indicated to show which users can configure device management and which users can only interact with configured devices.*
@@ -33,5 +33,5 @@ Create stand alone `JSON` files for the following user, account and location mod
 
 ![model properties](../assets/images/modelProps.gif)
 
-## 1. Add JSON Models
-Create stand alone `JSON` files for the following user, account and location models. This example gif demonstrates how to add a new model file.
+## 2. Add References to the New Models
+Select the `device.v1.json` model and add references to the new models you added in the previous step. This will create a complete representation of the schema used to manage devices.
