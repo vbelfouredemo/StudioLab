@@ -1,0 +1,23 @@
+openapi: 3.0.0
+info:
+  title: Devices API
+  version: '1.0'
+  description: 'Manage your IOT devices with this awesome API!'
+  contact:
+    name: Stephen Price
+    url: 'https://www.linkedin.com/in/slprice/'
+    email: stephen@stoplight.io
+  termsOfService: cloudhome.io/api/devices/terms
+  license:
+    name: MIT
+    url: 'https://opensource.org/licenses/MIT'
+servers:
+  - url: 'http://localhost:3000'
+paths: {}
+components:
+  schemas: {}
+  securitySchemes:
+    API Key:
+      name: API Key
+      type: apiKey
+      in: query
