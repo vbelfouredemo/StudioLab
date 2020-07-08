@@ -28,8 +28,13 @@ To get the latest update from your repository, click on the button called '*Pull
 
 ### Tabs
 
-Studio will also organize your repository into functional tabs. If you are focused on API design, the 'APIs' tab will only display OpenAPI and model files.
+Studio will also organize your repository into functional tabs to make your work easier. 
 
+#### APIs
+If you are focused on API design, the 'APIs' tab will only display OpenAPI and model files.
+
+#### Docs
 If you are writing behavioral documentation, the 'Docs' tab will display markdown files and other assets such as images.
 
+#### Files
 The 'Files' tab will display all files and directories located in your repository in case you need them.
