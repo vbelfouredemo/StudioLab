@@ -16,4 +16,4 @@ To learn more about how branches work, checkout the next section called '**Train
 >
 > *Begin the lab by becoming familiar with the **Training Environment** and the **Stoplight Studio UI**.* 
 >
->*Then proceed to complete each subsequent step until you have produced a final project.*
+>*Then proceed to complete each subsequent section until you have produced a final project.*
