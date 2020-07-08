@@ -35,3 +35,5 @@ Create stand alone `JSON` files for the following user, account and location mod
 
 ## 2. Add References to the New Models
 Select the `device.v1.json` model and add references to the new models you added in the previous step. This will create a complete representation of the schema used to manage devices.
+
+![devices](../assets/images/device.png)
