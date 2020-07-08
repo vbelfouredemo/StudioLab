@@ -4,6 +4,7 @@ Create stand alone `json` files for the following models:
 
 
 ### User
+**Description**: *Users associated with a CloudHome account. Administrative priviledges are indicated to show which users can configure device management and which users can only interact with configured devices.*
  
 ```json json_schema
 {
@@ -21,8 +22,7 @@ Create stand alone `json` files for the following models:
       "type": "string"
     },
     "email": {
-      "type": "string",
-      "format": "email"
+      "type": "string"
     }
   },
   "required": [
@@ -34,6 +34,7 @@ Create stand alone `json` files for the following models:
 ```
 
 ### Account
+**Description**: *Users can belong to multiple accounts on CloudHome's federated services. In other words users have a unique id that can interact or manage devices on more than one account or location.*
 
 ```json json_schema
 {
@@ -51,14 +52,10 @@ Create stand alone `json` files for the following models:
       "type": "string"
     },
     "userCount": {
-      "type": "integer",
-      "format": "int64",
-      "minimum": 1
+      "type": "integer"
     },
     "deviceCount": {
-      "type": "integer",
-      "format": "int64",
-      "minimum": 1
+      "type": "integer"
     }
   },
   "required": [
@@ -68,6 +65,7 @@ Create stand alone `json` files for the following models:
 ```
 
 ### Location
+**Description**: *Device geolocation at most recent update. Users can optionally choose to turn off geolocation, however key features such as mapping will not be available.*
 
 ```json json_schema
 {
@@ -81,21 +79,15 @@ Create stand alone `json` files for the following models:
   "properties": {
     "lat": {
       "type": "number",
-      "format": "float",
-      "minimum": 4,
-      "maximum": 7,
       "description": "decimal degrees"
     },
     "long": {
       "type": "number",
-      "format": "float",
-      "minimum": 4,
-      "maximum": 7,
       "description": "decimal degrees"
     },
     "geoTracking": {
       "type": "boolean",
-      "description": "real time tracking enabled?\n"
+      "description": "real time tracking enabled?"
     }
   },
   "required": [
