@@ -18,6 +18,8 @@ As a result there are a few key features that you should be aware of:
 
 Studio can checkout existing git branches and create new branches as you are working with your API designs and documentation.
 
+![branches](../assets/images/branches.gif)
+
 #### Push
 
 Studio can push your changes to new or existing branches on your source control. You can also compare changes and add commit messages when you push a change.
