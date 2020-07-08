@@ -6,7 +6,7 @@ Create stand alone `JSON` files for the following user, account and location mod
 ![add model](../assets/images/addModel.gif)
 
 <!-- theme: warning -->
-> ### Use the `Common` scope & `JSON` format
+> ### Use the Common scope & JSON format
 >*That way your models will be created as independent *`JSON`* files rather than written inline in the *`OAS`* file.*
 
 ### User
