@@ -1,6 +1,6 @@
 # Models
 
-The beginning of an awesome article...
+Create stand alone `json` files for the following models:
 
 
 ### User
