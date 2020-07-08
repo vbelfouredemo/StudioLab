@@ -24,6 +24,8 @@ Studio can checkout existing git branches and create new branches as you are wor
 
 Studio can push your changes to new or existing branches on your source control. You can also compare changes and add commit messages when you push a change.
 
+![branches](../assets/images/push.gif)
+
 #### Pull
 
 To get the latest update from your repository, click on the button called '*Pull latest from git repo*'.
