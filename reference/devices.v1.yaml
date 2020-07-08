@@ -16,6 +16,67 @@ servers:
 paths: {}
 components:
   schemas: {}
+  parameters:
+    accountid:
+      schema:
+        type: string
+        example: jetsonsFutureHome
+      name: accountid
+      in: path
+      required: true
+      description: unique per account (see `'My Account'` for more information)
+    spaceid:
+      schema:
+        type: string
+        example: seattle-office
+        default: all
+      in: query
+      name: spaceid
+      description: location associated with the devices (see `'My Spaces'` for more information)
+      allowEmptyValue: true
+    deviceName:
+      schema:
+        type: string
+        default: newDevice
+        example: garageCamera
+      in: header
+      name: deviceName
+      description: devices in the same space require unique names or will be assigned the default name `'newDevice'`
+      allowEmptyValue: true
+    deviceid:
+      schema:
+        type: string
+        default: all
+        example: 123abc
+      in: header
+      name: deviceid
+      description: 'unique identifiers for devices registered on the service cloud, when empty it defaults to `''all''`'
+      allowEmptyValue: true
+      required: true
+    sort:
+      schema:
+        type: string
+        enum:
+          - asc
+          - desc
+        default: desc
+        example: asc
+      in: query
+      name: sort
+      allowEmptyValue: true
+      description: will sort objects returned from the request
+    limit:
+      schema:
+        type: integer
+        default: 10
+        format: int32
+        example: 15
+        maximum: 25
+        minimum: 1
+      in: query
+      name: limit
+      allowEmptyValue: true
+      description: specify the number of results returned from the request
   securitySchemes:
     API Key:
       name: API Key
