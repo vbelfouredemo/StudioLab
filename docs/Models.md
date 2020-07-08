@@ -1,8 +1,9 @@
 # Models
 
-## Step #1
-
-Create stand alone `json` files for the following models:
+> 
+>## 1. Add JSON Models
+> 
+> Create stand alone `json` files for the following user, account and location models. The example gif demonstrates how to add a new model file.
 
 
 ### User
@@ -19,3 +20,5 @@ Create stand alone `json` files for the following models:
 **Description**: *Device geolocation at most recent update. Users can optionally choose to turn off geolocation, however key features such as mapping will not be available.*
 
 ![location model](../assets/images/location.png)
+
+![model](../assets/images/sample.gif)
