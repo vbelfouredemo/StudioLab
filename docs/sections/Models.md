@@ -34,7 +34,9 @@ Create stand alone `JSON` files for the following user, account and location mod
 ![model properties](../../assets/images/modelProps.gif)
 
 ## 2. Add References to the New Models
-Select the `device.v1.json` model and add references (`$ref`) to the new models you added in the previous step. This will create a complete representation of the schema used to manage devices.
+Select the `device.v1.json` model and add references (`$ref`) to the new models you added in the previous step. This will create a complete representation of the schema used to manage devices. 
+
+In other words, within the `device.v1.json` model, add references to the `user.v1.yaml`, `account.v1.yaml` and `location.v1.yaml files`.
 
 ![devices](../../assets/images/device.png)
 
