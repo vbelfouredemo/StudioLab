@@ -1,4 +1,4 @@
-Studio UI
+# Studio UI
 
 ![UI](../../assets/images/ui.png)
 
