@@ -38,5 +38,7 @@ Select the `device.v1.json` model and add references to the new models you added
 
 ![devices](../assets/images/device.png)
 
-The following example demonstrates how to add references in a model:
+The following example demonstrates how to add references to a model:
+
+![add references](../assets/images/addRefs.gif)
 
