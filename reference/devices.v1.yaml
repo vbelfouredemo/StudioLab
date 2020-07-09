@@ -45,6 +45,12 @@ paths:
       tags: []
       responses: {}
       operationId: post-api-devices
+      description: Add new devices to the IOT cloud.
+      security:
+        - API Key: []
+      parameters:
+        - $ref: '#/components/parameters/deviceName'
+        - $ref: '#/components/parameters/spaceid'
     parameters:
       - schema:
           type: string
