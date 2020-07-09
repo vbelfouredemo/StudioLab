@@ -21,6 +21,13 @@ paths:
       responses: {}
       operationId: get-api-devices
       description: Get a list of devices for a given account.
+      security:
+        - API Key: []
+      parameters:
+        - $ref: '#/components/parameters/deviceid'
+        - $ref: '#/components/parameters/sort'
+        - $ref: '#/components/parameters/limit'
+        - $ref: '#/components/parameters/spaceid'
     post:
       summary: newDevice
       tags: []
