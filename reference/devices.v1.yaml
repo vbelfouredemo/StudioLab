@@ -14,17 +14,26 @@ info:
 servers:
   - url: 'http://localhost:3000'
 paths:
-  /api/devices:
+  '/api/devices/{accountid}':
     get:
       summary: getDevices
       tags: []
       responses: {}
       operationId: get-api-devices
+      description: ''
     post:
       summary: newDevice
       tags: []
       responses: {}
       operationId: post-api-devices
+    parameters:
+      - schema:
+          type: string
+          example: jetsonsHome
+        name: accountid
+        in: path
+        required: true
+        description: unique account id
 components:
   schemas: {}
   parameters:
