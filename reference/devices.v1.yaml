@@ -25,6 +25,12 @@ paths:
             application/json:
               schema:
                 $ref: ../models/device.v1.json
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: ../models/error.v1.yaml
       operationId: get-api-devices
       description: Get a list of devices for a given account.
       security:
