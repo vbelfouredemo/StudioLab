@@ -43,7 +43,13 @@ paths:
     post:
       summary: newDevice
       tags: []
-      responses: {}
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: ../models/responseCode.v1.yaml
       operationId: post-api-devices
       description: Add new devices to the IOT cloud.
       security:
