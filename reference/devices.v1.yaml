@@ -51,6 +51,12 @@ paths:
       parameters:
         - $ref: '#/components/parameters/deviceName'
         - $ref: '#/components/parameters/spaceid'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ../models/device.v1.json
+        description: ''
     parameters:
       - schema:
           type: string
