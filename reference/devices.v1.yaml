@@ -20,7 +20,7 @@ paths:
       tags: []
       responses: {}
       operationId: get-api-devices
-      description: ''
+      description: Get a list of devices for a given account.
     post:
       summary: newDevice
       tags: []
