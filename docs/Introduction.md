@@ -1,4 +1,4 @@
-# Introduction
+# Welcome to the Stoplight Studio Lab!
 
 Welcome to the beginner lab for Stoplight Studio.
 
