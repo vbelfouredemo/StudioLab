@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: Devices API
   version: '1.0'
-  description: 'Manage your IOT devices with this awesome API!'
+  description: Manage your IOT devices with this awesome API!
   contact:
     name: Stephen Price
     url: 'https://www.linkedin.com/in/slprice/'
@@ -12,7 +12,7 @@ info:
     name: MIT
     url: 'https://opensource.org/licenses/MIT'
 servers:
-  - url: 'http://localhost:3000'
+  - url: 'http://localhost:3000/'
 paths:
   '/api/devices/{accountid}':
     get:
@@ -81,7 +81,7 @@ components:
       name: accountid
       in: path
       required: true
-      description: "unique per account (see `'My Account'` for more information)"
+      description: unique per account (see `'My Account'` for more information)
     spaceid:
       schema:
         type: string
@@ -89,7 +89,7 @@ components:
         default: all
       in: query
       name: spaceid
-      description: "location associated with the devices (see `'My Spaces'` for more information)"
+      description: location associated with the devices (see `'My Spaces'` for more information)
       allowEmptyValue: true
     deviceName:
       schema:
@@ -98,7 +98,7 @@ components:
         example: garageCamera
       in: header
       name: deviceName
-      description: "devices in the same space require unique names or will be assigned the default name `'newDevice'`"
+      description: devices in the same space require unique names or will be assigned the default name `'newDevice'`
       allowEmptyValue: true
     deviceid:
       schema:
@@ -107,7 +107,7 @@ components:
         example: 123abc
       in: header
       name: deviceid
-      description: "unique identifiers for devices registered on the service cloud, when empty it defaults to `'all'`"
+      description: 'unique identifiers for devices registered on the service cloud, when empty it defaults to `''all''`'
       allowEmptyValue: true
       required: true
     sort:
